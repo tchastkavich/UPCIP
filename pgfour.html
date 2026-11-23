@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>The UPCIP</title>
+        <link rel="stylesheet" href="upcipstyles.css">
+        
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+              }
+              
+              ul li {
+                float: left;
+              }
+              
+              ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              
+              ul li a:hover {
+                color: black;
+                background-color: #ff0000;
+                cursor: url(images/link.cur), auto;
+              }
+
+              .p2 {
+            color: white;
+            size: 10px;
+            border-style: solid;
+            border-width: 2px;
+            border-color:rgb(55, 205, 255);
+            margin-right: 1461px;
+        }
+
+        .p2 a {
+          text-decoration: none;
+          color: white;
+          cursor: url(images/link.cur), auto;
+        }
+
+        .menu {
+          display: grid;
+          grid-template-areas:
+          "three logo";
+          grid-template-columns: 100%;
+          gap: 0px;
+        }
+
+        .menu div.three {
+          grid-area: three;
+        }
+
+        .menu div.logo {
+          grid-area: logo;
+          display: flex;
+          justify-content: center;
+          padding-right: 283px;
+        }
+
+        h1 {
+          color: white;
+        }
+
+        h2 {
+          color: white;
+          font-weight: normal;
+        }
+
+        .button {
+                background-color: red;
+                border: none;
+                color: rgb(0, 0, 0);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+        }
+            .button:hover {
+                background-color: rgb(46, 46, 46);
+                border: none;
+                color: rgb(255, 255, 255);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+        }
+
+        .content {
+          display: grid;
+          grid-template-areas:
+          "thanks thanks"
+          "thanks thanks"
+          "emails emails"
+        }
+
+        .content div.thanks {
+          grid-area: thanks;
+          text-align: center;
+          margin-top: 10%;
+        }
+
+        .content div.emails {
+          grid-area: emails;
+          text-align: center;
+          margin-top: 10%;
+        }
+        
+        .buton {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          padding-top: 265px;
+        }
+
+              </style>
+    </head>
+
+    <body>
+      <div class="menu">
+        <ul> <div class="three">
+          <li><a href="index.html">Home</li></a>
+            <li><a href="about.html">About Us</li></a>
+            <li><a href="apply.html">Apply Now!</li></a></div>
+            <div class="logo">
+            <img src="images/logo5.png"></ul></div></div>
+            <p class="p2"><small>This page has been translated from the galactic standard language to <strong><a href="pgfive.html">ENGLISH</a></strong><small></p>
+            <div class="content">
+            <div class="thanks">
+            <h1>Thank you for applying for<br>The Unified Planetery Council of Intergalactic Peace!</h1></div>
+            <div class="emails"><h2>We will review your planet and send you an email with additional info.</h2></div></div>
+            <div class="buton">
+            <a href="index.html"><button class="button">Back to Home</button></a></div>
+
+    </body>
+
+</html>

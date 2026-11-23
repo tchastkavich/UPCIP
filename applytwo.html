@@ -1,0 +1,247 @@
+<html>
+    <head>
+        <title>The UPCIP</title>
+        <link rel="stylesheet" href="upcipstyles.css">
+        
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+            }
+              
+              ul li {
+                float: left;
+            }
+              
+              ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+              
+              ul li a:hover {
+                color: black;
+                background-color: #ff0000;
+                cursor: url(images/link.cur), auto;
+            }
+
+            .button {
+                font-family: aurebesh, sans-serif;
+                background-color: red;
+                border: none;
+                color: rgb(0, 0, 0);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+        }
+            .button:hover {
+                font-family: aurebesh, sans-serif;
+                background-color: rgb(46, 46, 46);
+                border: none;
+                color: rgb(255, 255, 255);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+        }
+
+            .p2 {
+            color: white;
+            size: 10px;
+            border-style: solid;
+            border-width: 2px;
+            border-color:rgb(55, 205, 255);
+            margin-right: 1577px;
+        }
+
+        .p2 a {
+            text-decoration: none;
+            color: white;
+            cursor: url(images/link.cur), auto;
+        }
+
+        @font-face {
+            font-family: Aurebesh;
+            src: url(aurebesh/Aurebesh.otf) format('opentype');
+        }
+
+        body {
+            font-family: aurebesh, sans-serif;
+            background-image: url(images/bgmars3.png);
+            background-repeat: no-repeat;
+        }
+
+        .menu {
+          display: grid;
+          grid-template-areas:
+          "three logo";
+          grid-template-columns: 100%;
+          gap: 0px;
+        }
+
+        .menu div.three {
+          grid-area: three;
+        }
+
+        .menu div.logo {
+          grid-area: logo;
+          display: flex;
+          justify-content: center;
+          padding-right: 389px;
+        }
+
+        .titlebox {
+          font-size:large;
+          background-color: rgb(107, 107, 107);
+          color: black;
+          border-style: solid;
+          border-width: 2px;
+          border-color: rgb(65, 65, 65);
+          display: flex;
+          justify-content: center;
+          margin-right: 750px;
+          margin-left: 750px;
+        }
+
+        .hidoggy {
+          display: flex;
+          justify-content: flex-start;
+          padding-top: 305px;
+          animation-name: pulse;
+          animation-duration:  4s;
+          animation-iteration-count: 3;
+          animation-iteration-count: infinite; 
+        }
+
+        @keyframes pulse { 
+          0% { 
+            scale: 1; 
+          }
+
+          50% { 
+            scale: 1.2; 
+          }
+
+          100% { 
+            scale: 1; 
+          }
+        }
+
+        .content {
+          display: grid;
+          grid-template-areas:
+          "list list"
+          "join join"
+        }
+
+        .content div.join {
+          grid-area: join;
+          display: flex;
+          justify-content: center;
+        }
+
+        .content div.list {
+          grid-area: list;
+          display: flex;
+          justify-content: center;
+        }
+
+        h3 {
+          color: white;
+          font-weight: normal;
+        }
+
+        .list a {
+          cursor: url(images/link.cur), auto;
+        }
+
+        ol {
+          list-style-type: none;
+        }
+        
+        .terms {
+          color: white;
+        }
+        
+        .vow {
+          color: white;
+        }
+        
+        .mark {
+          color: white;
+        }
+
+        .termsl {
+          cursor: url(images/link.cur), auto;
+        }
+
+        input[type="checkbox"] {
+          cursor: url(images/link.cur), auto;
+        }
+
+                input[type="checkbox"],
+                input[type="checkbox"] + label {
+                cursor: url(images/link.cur), pointer;
+                }
+            
+            input[type="text"] {
+              cursor: url(images/text.cur), auto;
+            }
+
+        .termst {
+          cursor: url(images/pointer.cur), auto;
+        }
+
+        .vowt {
+          cursor: url(images/pointer.cur), auto;
+        }
+
+        .markt {
+          cursor: url(images/pointer.cur), auto;
+        }
+
+              </style>
+    </head>
+
+    <body>
+        <div class="menu">
+        <ul> <div class="three">
+          <li><a href="hometwo.html">Home</li></a>
+            <li><a href="abouttwo.html">About Us</li></a>
+            <li><a href="#">Apply Now!</li></a></div>
+            <div class="logo">
+            <img src="images/logo5.png"></ul></div></div>
+            <p class="p2"><small>Translate this page to <strong><a href="apply.html">ENGLISH</a></strong><small></p>
+            <div class="titlebox">
+            <h1>JOIN THE UPCIP</h1></div>
+            <div class="content">
+              <div class="list"><form action="pgfive.html" method="post">
+                <h2><ol><li class="pname"><input type="text" style="font-family: aurebesh, sans-serif;" name="pname" placeholder="Planet's Name" size="60" maxsize="70" required></li>
+                <li class="sname"><input type="text" style="font-family: aurebesh, sans-serif;" name="sname" placeholder="System Name" size="60" maxsize="70" required></li>
+                <li class="line1"><input type="text" style="font-family: aurebesh, sans-serif;" name="line1" placeholder="Star Coordinates Line 1" size="60" maxsize="70" required></li>
+                <li class="line2"><input type="text" style="font-family: aurebesh, sans-serif;" name="line2" placeholder="Star Coordinates Line 2" size="60" maxsize="70" required></li>
+                <li class="line3"><input type="text" style="font-family: aurebesh, sans-serif;" name="line3" placeholder="Star Coordinates Line 3" size="60" maxsize="70" required></li>
+                <li class="email"><input type="text" style="font-family: aurebesh, sans-serif;" name="email" placeholder="Email Address" size="60" maxsize="70" required></li>
+                <li class="fone"><input type="text" style="font-family: aurebesh, sans-serif;" name="fone" placeholder="Phone Number" size="60" maxsize="70" required></li>
+                <li class="lang"><input type="text" style="font-family: aurebesh, sans-serif;" name="lang" placeholder="Planet's Language(s)" size="60" maxsize="70" required></li>
+                <li class="terms"><label class="termst">
+                <input type="checkbox" name="terms" required>I have read and accept the <a href="errortwo.html">Terms & Conditions</a></label>
+                </li>
+                <li class="vow"><label class="vowt">
+                <input type="checkbox" name="vow" required>I vow to help uphold intergalactic peace by joining the UPCIP</label></ol></h2></div>
+              <div class="join">
+            <a href="pgfive.html"><button class="button">JOIN THE UPCIP NOW</button></a></div></form></div>
+            <img src="images/aliendogresurrection.png" class="hidoggy">
+    </body>
+
+</html>

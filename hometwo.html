@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>The UPCIP</title>
+        <link rel="stylesheet" href="upcipstyles.css">
+
+        <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+          
+          ul li {
+            float: left;
+        }
+          
+          ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+          
+          ul li a:hover {
+            color: black;
+            background-color: #ff0000;
+            cursor: url(images/link.cur), auto;
+        }
+
+            .button {
+                font-family: aurebesh, sans-serif;
+                background-color: red;
+                border: none;
+                color: rgb(0, 0, 0);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+        }
+            .button:hover {
+                font-family: aurebesh, sans-serif;
+                background-color: rgb(46, 46, 46);
+                border: none;
+                color: rgb(255, 255, 255);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+        }
+
+        .p2 {
+            color: white;
+            size: 10px;
+            border-style: solid;
+            border-width: 2px;
+            border-color:rgb(55, 205, 255);
+            margin-right: 1562px;
+        }
+
+        .p2 a {
+            text-decoration: none;
+            color: white;
+            cursor: url(images/link.cur), auto;
+        }
+
+        p {
+          color: white;
+          size: 25px;
+        }
+
+        @font-face {
+            font-family: Aurebesh;
+            src: url(aurebesh/Aurebesh.otf) format('opentype');
+        }
+
+        body {
+            font-family: aurebesh, sans-serif;
+        }
+
+        .menu {
+          display: grid;
+          grid-template-areas:
+          "three logo";
+          grid-template-columns: 100%;
+          gap: 0px;
+        }
+
+        .menu div.three {
+          grid-area: three;
+        }
+
+        .menu div.logo {
+          grid-area: logo;
+          display: flex;
+          justify-content: center;
+          padding-right: 375px;
+        }
+
+        h3 {
+          color: white;
+          font-weight: normal;
+        }
+
+        .content {
+            display: grid;
+            grid-template-areas:
+            "abt webp"
+            "png games"
+            "join jpg"
+            "joinbtn joinbtn"; 
+        }
+
+        .content div.abt {
+            grid-area: abt;
+
+        }
+
+        .content div.webp {
+            grid-area: webp;
+            
+        }
+
+        .webp {
+          filter:saturate(250%);
+        }
+
+        .content div.button {
+          grid-area: button;
+        }
+
+        .content div.games {
+          grid-area: games;
+        }
+
+        .content div.join {
+          grid-area: join;
+        }
+
+        .content div.joinbtn {
+          display: flex;
+          justify-content: center;
+          grid-area: joinbtn;
+        }
+
+        .content div.png {
+          grid-area: png;
+        }
+
+        .button2 {
+                background-color: red;
+                border: none;
+                color: rgb(0, 0, 0);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+                font-family: aurebesh, sans-serif;
+        }
+            .button2:hover {
+                background-color: rgb(46, 46, 46);
+                border: none;
+                color: rgb(255, 255, 255);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+        }
+
+        .button3 {
+                background-color: red;
+                border: none;
+                color: rgb(0, 0, 0);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+                font-family: aurebesh, sans-serif;
+        }
+            .button3:hover {
+                background-color: rgb(46, 46, 46);
+                border: none;
+                color: rgb(255, 255, 255);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 15px;
+                cursor: url(images/link.cur), auto;
+        }
+
+          </style>
+    </head>
+
+    <body>
+        <div class="menu">
+            <ul> <div class="three">
+              <li><a href="#">Home</li></a>
+                <li><a href="abouttwo.html">About Us</li></a>
+                <li><a href="applytwo.html">Apply Now!</li></a></div>
+                <div class="logo">
+                <img src="images/logo5.png"></ul></div></div>
+            <p class="p2"><small>Translate this page to <strong><a href="index.html">ENGLISH</a></strong><small></p>
+                <div class="content">
+                  <div class="abt">
+                <h3 class="abtpar">Welcome to the official webpage for The United Planetary Council of Intergalactic Peace (UPCIP),<br>a collective of planets across the known universe who<br>have come together in a mission to uphold peace and stability across the galaxy.<br>We work to peacefully solve various problems throughout the cosmos in hopes for a better<br>tomorrow for everyone, no matter their planet, species, or distance.</h3>
+                <a href="abouttwo.html"><button class="button">About Us</button></a></div>
+                <img src="images/two.png" class="webp">
+                <div class="games">
+                  <h3>Are you a child? If so, we're sure you have no idea what you're looking at, right?<br>That's okay! We have things for kids here too! In the UPCIP,<br>we like to make sure there's content for<br>everybody,whether you're normal age, old, or child sized,<br>there's something for you at the UPCIP. By clicking the button below,<br>you are taken to a bunch of games we're sure anyone can enjoy, have fun little one!</h3>
+                <a href="errortwo.html"><button class="button2">Click Here!</button></a></div>
+                <img src="images/gamekid.png" class="png">
+                <div class="join">
+              <h3>Join The UPCIP today! Joining The UPCIP can and will benefit your<br>planet more than you know, so if you care<br>about your planet or the people in it,<br>make sure you apply to join The UPCIP today to get<br>all the incredible things we offer to planets that are in of our<br>ranks, you won't regret it!</h3></div>
+              <img src="images/five.png" class="jpg">
+              <div class="joinbtn">
+              <a href="applytwo.html"><button class="button3">Join The UPCIP Today!</button></a></div></div>
+    </body>
+
+</html>
